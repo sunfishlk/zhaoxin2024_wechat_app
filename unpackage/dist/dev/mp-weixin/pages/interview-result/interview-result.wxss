@@ -1,0 +1,188 @@
+
+.star-left.data-v-13970578{
+  width: 78rpx;
+  height: 78rpx;
+  position: absolute;
+  z-index: 100;
+  top: -4rpx;
+  right: 218rpx;
+}
+.star-right.data-v-13970578{
+  width: 64rpx;
+  height: 64rpx;
+  position: absolute;
+  z-index: 100;
+  top: 20rpx;
+  right: 134rpx;
+}
+.star-top.data-v-13970578{
+  width: 56rpx;
+  height: 56rpx;
+  position: absolute;
+  z-index: 100;
+  top: -52rpx;
+  right:150rpx;
+}
+.hide.data-v-13970578{
+  display: none;
+}
+.overlay.data-v-13970578 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  display: none;
+  z-index: 10;
+}
+.overlay.show.data-v-13970578 {
+  display: block;
+}
+.detail.data-v-13970578{
+  margin-top: 40rpx;
+}
+.total-container.data-v-13970578{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  font-family: 'HarmonyOS';
+}
+.container.data-v-13970578{
+  transition: all .3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.blurred.data-v-13970578 {
+  filter: blur(4rpx);
+}
+.display-card.data-v-13970578{
+  position: absolute;
+  width: 600rpx;
+  height: 900rpx;
+  background-color: #ffffff;
+  border: 4rpx solid #ff792d;
+  border-radius: 20rpx;
+  display: none;
+  z-index: 400;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.code.data-v-13970578{
+  width: 500rpx;
+  height: 500rpx;
+  border: 2rpx solid black;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.code-img.data-v-13970578{
+  width: 500rpx;
+  height: 500rpx;
+}
+.title.data-v-13970578{
+  font-weight: bold;
+  font-size: 60rpx;
+  color: black;
+  margin: 60rpx 0;
+  font-family: 'Alimama ShuHeiTi';
+}
+.img-container.data-v-13970578{
+  width: 100vw;
+  height: 600rpx;
+  position: relative;
+  margin: 10rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person.data-v-13970578{
+  position: absolute;
+  z-index: 100;
+  top: 25rpx;
+  opacity: 0.8;
+}
+.round.data-v-13970578{
+  width: 100vw;
+  height: 600rpx;
+  position: absolute;
+  z-index: 25;
+  top: -28rpx;
+}
+.bg.data-v-13970578{
+  position: absolute;
+  z-index: 50;
+  width: 100vw;
+  height: 400rpx;
+  top: 170rpx;
+  left:-10rpx;
+}
+.stone.data-v-13970578{
+  position: absolute;
+  z-index: 125;
+  bottom: 44rpx;
+  width: 300rpx;
+  height: 110rpx;
+}
+.text.data-v-13970578{
+  margin: 20rpx 0;
+  text-align: center;
+}
+.big-text.data-v-13970578{
+  color: #ff792d;
+  font-weight: bold;
+  font-size: 60rpx;
+  margin-top: 50rpx;
+  margin-bottom: 10rpx;
+  font-family: 'Alimama ShuHeiTi';
+}
+.small-text.data-v-13970578{
+  margin: 20rpx 0;
+}
+.button.data-v-13970578{
+  background-color: #ff792d;
+  width: 500rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 100rpx;
+  color: white;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+  font-family: 'Alimama ShuHeiTi';
+}
+.copy-button.data-v-13970578{
+  background-color: #ef82a0;
+  width: 440rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 100rpx;
+  color: white;
+  margin-top: 40rpx;
+}
+
+/* 适配 Windows 设备 (480px x 800px) */
+@media screen and (min-width: 415px) and (max-width: 480px) and (min-height: 737px) and (max-height: 800px) {
+.title.data-v-13970578{
+    margin-top: 10rpx;
+    margin-bottom: 30rpx;
+}
+.big-text.data-v-13970578{
+    margin-top: 10rpx;
+}
+.button.data-v-13970578{
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+}
+

@@ -1,0 +1,32 @@
+
+.title.data-v-2ea0300e{
+  font-size: 40rpx;
+  font-family: 'HarmonyOS';
+  /* margin-bottom: 120rpx; */
+}
+.card.data-v-2ea0300e{
+  width: 500rpx;
+  height: 320rpx;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: 6rpx solid #eecfd3;
+  box-shadow: 6rpx 6rpx 20rpx 2rpx #eecfd3;
+  z-index: 1000;
+}
+.button-container.data-v-2ea0300e{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button.data-v-2ea0300e{
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #f6c2cb;
+  font-size: 30rpx;
+  margin: 0 10rpx;
+}

@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),a={__name:"home",setup(a){const o=()=>{e.index.navigateTo({url:"../../pages/basic-info/basic-info"})};return(a,s)=>({a:e.o(o)})}},o=e._export_sfc(a,[["__scopeId","data-v-ac157f83"]]);wx.createPage(o);

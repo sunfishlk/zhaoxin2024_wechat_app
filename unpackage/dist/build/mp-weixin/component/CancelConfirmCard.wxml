@@ -1,0 +1,1 @@
+<view class="card data-v-6aa3725b"><view class="title data-v-6aa3725b">取消报名</view><view class="button-container data-v-6aa3725b"><view class="button data-v-6aa3725b" bindtap="{{a}}">Yes</view><view class="button data-v-6aa3725b" bindtap="{{b}}">No</view></view></view>

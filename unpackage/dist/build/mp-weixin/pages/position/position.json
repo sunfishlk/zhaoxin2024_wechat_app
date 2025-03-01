@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "位置导航",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "map": "../../component/Map"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";const o=require("../common/vendor.js"),e={__name:"CancelConfirmCard",emits:["yes","no"],setup(e,{emit:n}){const s=()=>{n("yes"),console.log("yes")},t=()=>{n("no"),console.log("no")};return(e,n)=>({a:o.o(s),b:o.o(t)})}},n=o._export_sfc(e,[["__scopeId","data-v-6aa3725b"]]);wx.createComponent(n);

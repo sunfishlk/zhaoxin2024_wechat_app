@@ -1,0 +1,250 @@
+
+.hide.data-v-99492b0e {
+  display: none;
+}
+.overlay.data-v-99492b0e {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 100;
+  display: none;
+}
+.overlay.show.data-v-99492b0e {
+  display: block;
+}
+.date-card.data-v-99492b0e {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: #f6f8fb;
+  display: none;
+}
+.date-card-show.data-v-99492b0e {
+  display: block !important;
+}
+.circle.data-v-99492b0e{
+  width: 102rpx;
+  height: 102rpx;
+  border-radius: 110rpx;
+  background-color: #e5d1d3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 100;
+}
+.icon-container.data-v-99492b0e{
+  position: absolute;
+  left: 60rpx;
+  top: -70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon.data-v-99492b0e{
+  width: 90rpx;
+  height: 90rpx;
+  z-index: 200;
+}
+.date-picker.data-v-99492b0e, .time-picker.data-v-99492b0e {
+  position: relative;
+}
+.uni-input.data-v-99492b0e {
+  width: 100%;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  margin-top: 10.193rpx;
+  background-color: #f6f8fc;
+  padding: 0 20rpx;
+}
+.card-margin.data-v-99492b0e {
+  margin: 0 60.386rpx;
+}
+.total-container.data-v-99492b0e {
+  background-color: #e9d0d3;
+}
+.label.data-v-99492b0e {
+  font-size: 30rpx;
+  margin-top: 30.193rpx;
+  font-family: 'HarmonyOS';
+}
+.card-head.data-v-99492b0e {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60rpx;
+  margin-bottom: 30rpx;
+}
+.info.data-v-99492b0e {
+  display: flex;
+  flex-direction: column;
+}
+.info-title.data-v-99492b0e {
+  font-size: 50rpx;
+  font-family: 'HarmonyOS';
+}
+.card-main.data-v-99492b0e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80.386rpx;
+}
+.button-container.data-v-99492b0e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30.193rpx 0;
+  font-family: 'HarmonyOS';
+}
+.last-button.data-v-99492b0e {
+  width: 251.739rpx;
+  height: 80.58rpx;
+  line-height: 80.58rpx;
+  border: 1.208rpx solid salmon;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+.next-button.data-v-99492b0e {
+  width: 251.739rpx;
+  height: 80.58rpx;
+  line-height: 80.58rpx;
+  border: 1.208rpx solid salmon;
+  background-color: #f6c2cb;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.bottom.data-v-99492b0e {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex: 1;
+}
+@keyframes showUp-99492b0e {
+0% {
+    opacity: 0;
+    transform: translate(0, 75rpx);
+}
+100% {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+}
+.img-bottom.data-v-99492b0e {
+  width: 850rpx;
+  height: 190rpx;
+  position: absolute;
+  bottom: -3rpx;
+  animation: showUp-99492b0e 1s;
+}
+.container.data-v-99492b0e {
+  transform: translate(0, 140rpx);
+}
+@keyframes showDown-99492b0e {
+0% {
+    opacity: 0;
+    transform: translate(0, -75rpx);
+}
+100% {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+}
+.aside-img.data-v-99492b0e {
+  width: 250rpx;
+  height: 250rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: showDown-99492b0e 1s;
+}
+.card.data-v-99492b0e {
+  border-radius: 30.193rpx;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 140rpx);
+}
+
+/* 适配 Windows 设备 (480px x 800px) */
+@media screen and (min-width: 415px) and (max-width: 480px) and (min-height: 737px) and (max-height: 800px) {
+.container.data-v-99492b0e {
+    transform: translate(0,100rpx);
+}
+.card.data-v-99492b0e{
+    height: calc(100vh - 100rpx);
+}
+.label.data-v-99492b0e{
+    margin: 10rpx 0;
+    font-size: 25rpx;
+}
+.info-title.data-v-99492b0e{
+    font-size: 40rpx;
+}
+.rule.data-v-99492b0e{
+    font-size: 20rpx;
+}
+.button-container.data-v-99492b0e{
+    position: relative;
+    margin: 10rpx 0;
+}
+.last-button.data-v-99492b0e,.next-button.data-v-99492b0e{
+    width: 200rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    font-size: 24rpx;
+}
+.uni-input.data-v-99492b0e{
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 23rpx;
+}
+}
+/* iPad 媒体查询 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+.container.data-v-99492b0e {
+    transform: translate(0,100rpx);
+}
+.card.data-v-99492b0e{
+    height: calc(100vh - 100rpx);
+}
+.label.data-v-99492b0e{
+    margin: 10rpx 0;
+    font-size: 25rpx;
+}
+.info-title.data-v-99492b0e{
+    font-size: 40rpx;
+}
+.rule.data-v-99492b0e{
+    font-size: 20rpx;
+}
+.button-container.data-v-99492b0e{
+    position: relative;
+    margin: 10rpx 0;
+}
+.last-button.data-v-99492b0e,.next-button.data-v-99492b0e{
+    width: 200rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    font-size: 24rpx;
+}
+.uni-input.data-v-99492b0e{
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 23rpx;
+}
+.button-container.data-v-99492b0e{
+    z-index: 100;
+}
+}
+

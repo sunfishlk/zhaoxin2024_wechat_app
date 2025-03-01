@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/basic-info/basic-info",
+    "pages/main-department/main-department",
+    "pages/other-department/other-department",
+    "pages/skills/skills",
+    "pages/interview/interview",
+    "pages/message-confirm/message-confirm",
+    "pages/color-egg/color-egg",
+    "pages/QRCode/QRCode",
+    "pages/position/position",
+    "pages/interview-result/interview-result"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Uni App",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "iconPath": "static/logo.png",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置权限将用来定位您的位置"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

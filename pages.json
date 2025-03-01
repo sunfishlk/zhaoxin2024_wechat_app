@@ -1,0 +1,97 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "扉页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/basic-info/basic-info",
+      "style": {
+        "navigationBarTitleText": "基本信息",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/main-department/main-department",
+      "style": {
+        "navigationBarTitleText": "主选部门",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/other-department/other-department",
+      "style": {
+        "navigationBarTitleText": "意向部门",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/skills/skills",
+      "style": {
+        "navigationBarTitleText": "知识与技能",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/interview/interview",
+      "style": {
+        "navigationBarTitleText": "面试时间段",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/message-confirm/message-confirm",
+      "style": {
+        "navigationBarTitleText": "信息确认",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path":"pages/color-egg/color-egg",
+      "style": {
+        "navigationBarTitleText": "彩蛋",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path":"pages/QRCode/QRCode",
+      "style": {
+        "navigationBarTitleText": "二维码",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path":"pages/position/position",
+      "style": {
+        "navigationBarTitleText": "位置导航",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path":"pages/interview-result/interview-result",
+      "style": {
+        "navigationBarTitleText": "面试结果",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Uni App",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ]
+}

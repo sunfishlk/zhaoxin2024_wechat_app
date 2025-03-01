@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "彩蛋",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cancel-confirm-card": "../../component/CancelConfirmCard"
+  }
+}

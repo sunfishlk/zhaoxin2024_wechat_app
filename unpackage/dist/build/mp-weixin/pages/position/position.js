@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js");Math||t();const t=()=>"../../component/Map.js",o={__name:"position",setup(t){const o=()=>{e.index.navigateBack()};return(t,a)=>({a:e.o(o)})}},a=e._export_sfc(o,[["__scopeId","data-v-b915fa55"]]);wx.createPage(a);

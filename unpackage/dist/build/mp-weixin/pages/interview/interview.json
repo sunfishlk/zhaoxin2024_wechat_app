@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "面试时间段",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "date-card": "../../component/DateCard",
+    "time-card": "../../component/TimeCard"
+  }
+}

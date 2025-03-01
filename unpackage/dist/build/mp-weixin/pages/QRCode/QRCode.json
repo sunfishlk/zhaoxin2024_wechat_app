@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "二维码",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "w-barcode": "../../uni_modules/wmf-code/components/w-barcode/w-barcode"
+  }
+}

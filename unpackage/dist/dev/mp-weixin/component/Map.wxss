@@ -1,0 +1,36 @@
+
+/* 可以根据需要添加样式 */
+.map-locate.data-v-66e10a67 {
+  width: 75rpx;
+  height: 75rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10rpx;
+  position: absolute;
+  right: 10rpx;
+  bottom: 30rpx;
+  box-shadow: rgba(61, 90, 125, 0.4) 0px 0px 20px 0px;
+}
+.map-locate .image.data-v-66e10a67{
+  width: 60rpx;
+  height: 60rpx;
+  z-index: 999;
+}
+.map.data-v-66e10a67{
+  width: 600rpx;
+  height: 900rpx;
+}
+/* 适配 Windows 设备 (480px x 800px) */
+@media screen and (min-width: 415px) and (max-width: 480px) and (min-height: 737px) and (max-height: 800px) {
+.map.data-v-66e10a67{
+    height: 600rpx;
+}
+}
+/* iPad 媒体查询 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+.map.data-v-66e10a67{
+    height: 600rpx;
+}
+}
